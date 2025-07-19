@@ -11,3 +11,16 @@ export interface ButtonProps {
   type?: "button" | "submit";
   className?: string;
 }
+
+// interfaces/index.ts
+
+export interface PropertyProps {
+  id: number;
+  name: string;
+  address: string;
+  rating: number;
+  category: string;
+  price: number;
+  offers: string[];
+  imageUrl: string;
+}
